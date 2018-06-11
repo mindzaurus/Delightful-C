@@ -1,0 +1,396 @@
+
+a.out:	file format Mach-O 64-bit x86-64
+
+Disassembly of section __TEXT,__text:
+__text:
+100000cfc:	55 	pushq	%rbp
+100000cfd:	48 89 e5 	movq	%rsp, %rbp
+100000d00:	48 83 ec 40 	subq	$64, %rsp
+100000d04:	48 89 7d c8 	movq	%rdi, -56(%rbp)
+100000d08:	c7 45 dc 5f 00 00 00 	movl	$95, -36(%rbp)
+100000d0f:	48 c7 45 f8 00 00 00 00 	movq	$0, -8(%rbp)
+100000d17:	48 8b 45 c8 	movq	-56(%rbp), %rax
+100000d1b:	48 89 45 f8 	movq	%rax, -8(%rbp)
+100000d1f:	bf 04 00 00 00 	movl	$4, %edi
+100000d24:	e8 b7 00 00 00 	callq	183
+100000d29:	48 89 45 f0 	movq	%rax, -16(%rbp)
+100000d2d:	48 8d 05 f4 02 00 00 	leaq	756(%rip), %rax
+100000d34:	48 89 45 e8 	movq	%rax, -24(%rbp)
+100000d38:	48 8d 45 dc 	leaq	-36(%rbp), %rax
+100000d3c:	48 89 45 e0 	movq	%rax, -32(%rbp)
+100000d40:	48 8b 4d e0 	movq	-32(%rbp), %rcx
+100000d44:	48 8b 55 e8 	movq	-24(%rbp), %rdx
+100000d48:	48 8b 45 f0 	movq	-16(%rbp), %rax
+100000d4c:	48 89 c6 	movq	%rax, %rsi
+100000d4f:	48 8d 3d ba 00 00 00 	leaq	186(%rip), %rdi
+100000d56:	b8 00 00 00 00 	movl	$0, %eax
+100000d5b:	e8 86 00 00 00 	callq	134
+100000d60:	90 	nop
+100000d61:	c9 	leave
+100000d62:	c3 	retq
+100000d63:	55 	pushq	%rbp
+100000d64:	48 89 e5 	movq	%rsp, %rbp
+100000d67:	48 83 ec 20 	subq	$32, %rsp
+100000d6b:	48 8b 05 8e 02 00 00 	movq	654(%rip), %rax
+100000d72:	48 89 45 f8 	movq	%rax, -8(%rbp)
+100000d76:	48 8d 05 af 02 00 00 	leaq	687(%rip), %rax
+100000d7d:	48 89 45 f0 	movq	%rax, -16(%rbp)
+100000d81:	48 8d 05 74 ff ff ff 	leaq	-140(%rip), %rax
+100000d88:	48 89 45 e8 	movq	%rax, -24(%rbp)
+100000d8c:	48 8b 4d e8 	movq	-24(%rbp), %rcx
+100000d90:	48 8b 55 f0 	movq	-16(%rbp), %rdx
+100000d94:	48 8b 45 f8 	movq	-8(%rbp), %rax
+100000d98:	48 89 c6 	movq	%rax, %rsi
+100000d9b:	48 8d 3d 06 01 00 00 	leaq	262(%rip), %rdi
+100000da2:	b8 00 00 00 00 	movl	$0, %eax
+100000da7:	e8 3a 00 00 00 	callq	58
+100000dac:	90 	nop
+100000dad:	c9 	leave
+100000dae:	c3 	retq
+100000daf:	55 	pushq	%rbp
+100000db0:	48 89 e5 	movq	%rsp, %rbp
+100000db3:	48 8d 05 72 02 00 00 	leaq	626(%rip), %rax
+100000dba:	c7 00 21 00 00 00 	movl	$33, (%rax)
+100000dc0:	48 8d 05 65 02 00 00 	leaq	613(%rip), %rax
+100000dc7:	48 89 c7 	movq	%rax, %rdi
+100000dca:	e8 2d ff ff ff 	callq	-211 <_example_pointer_function_one>
+100000dcf:	b8 00 00 00 00 	movl	$0, %eax
+100000dd4:	e8 8a ff ff ff 	callq	-118 <_example_pointer_function_two>
+100000dd9:	b8 00 00 00 00 	movl	$0, %eax
+100000dde:	5d 	popq	%rbp
+100000ddf:	c3 	retq
+
+_example_pointer_function_one:
+100000cfc:	55 	pushq	%rbp
+100000cfd:	48 89 e5 	movq	%rsp, %rbp
+100000d00:	48 83 ec 40 	subq	$64, %rsp
+100000d04:	48 89 7d c8 	movq	%rdi, -56(%rbp)
+100000d08:	c7 45 dc 5f 00 00 00 	movl	$95, -36(%rbp)
+100000d0f:	48 c7 45 f8 00 00 00 00 	movq	$0, -8(%rbp)
+100000d17:	48 8b 45 c8 	movq	-56(%rbp), %rax
+100000d1b:	48 89 45 f8 	movq	%rax, -8(%rbp)
+100000d1f:	bf 04 00 00 00 	movl	$4, %edi
+100000d24:	e8 b7 00 00 00 	callq	183
+100000d29:	48 89 45 f0 	movq	%rax, -16(%rbp)
+100000d2d:	48 8d 05 f4 02 00 00 	leaq	756(%rip), %rax
+100000d34:	48 89 45 e8 	movq	%rax, -24(%rbp)
+100000d38:	48 8d 45 dc 	leaq	-36(%rbp), %rax
+100000d3c:	48 89 45 e0 	movq	%rax, -32(%rbp)
+100000d40:	48 8b 4d e0 	movq	-32(%rbp), %rcx
+100000d44:	48 8b 55 e8 	movq	-24(%rbp), %rdx
+100000d48:	48 8b 45 f0 	movq	-16(%rbp), %rax
+100000d4c:	48 89 c6 	movq	%rax, %rsi
+100000d4f:	48 8d 3d ba 00 00 00 	leaq	186(%rip), %rdi
+100000d56:	b8 00 00 00 00 	movl	$0, %eax
+100000d5b:	e8 86 00 00 00 	callq	134
+100000d60:	90 	nop
+100000d61:	c9 	leave
+100000d62:	c3 	retq
+
+_example_pointer_function_two:
+100000d63:	55 	pushq	%rbp
+100000d64:	48 89 e5 	movq	%rsp, %rbp
+100000d67:	48 83 ec 20 	subq	$32, %rsp
+100000d6b:	48 8b 05 8e 02 00 00 	movq	654(%rip), %rax
+100000d72:	48 89 45 f8 	movq	%rax, -8(%rbp)
+100000d76:	48 8d 05 af 02 00 00 	leaq	687(%rip), %rax
+100000d7d:	48 89 45 f0 	movq	%rax, -16(%rbp)
+100000d81:	48 8d 05 74 ff ff ff 	leaq	-140(%rip), %rax
+100000d88:	48 89 45 e8 	movq	%rax, -24(%rbp)
+100000d8c:	48 8b 4d e8 	movq	-24(%rbp), %rcx
+100000d90:	48 8b 55 f0 	movq	-16(%rbp), %rdx
+100000d94:	48 8b 45 f8 	movq	-8(%rbp), %rax
+100000d98:	48 89 c6 	movq	%rax, %rsi
+100000d9b:	48 8d 3d 06 01 00 00 	leaq	262(%rip), %rdi
+100000da2:	b8 00 00 00 00 	movl	$0, %eax
+100000da7:	e8 3a 00 00 00 	callq	58
+100000dac:	90 	nop
+100000dad:	c9 	leave
+100000dae:	c3 	retq
+
+_main:
+100000daf:	55 	pushq	%rbp
+100000db0:	48 89 e5 	movq	%rsp, %rbp
+100000db3:	48 8d 05 72 02 00 00 	leaq	626(%rip), %rax
+100000dba:	c7 00 21 00 00 00 	movl	$33, (%rax)
+100000dc0:	48 8d 05 65 02 00 00 	leaq	613(%rip), %rax
+100000dc7:	48 89 c7 	movq	%rax, %rdi
+100000dca:	e8 2d ff ff ff 	callq	-211 <_example_pointer_function_one>
+100000dcf:	b8 00 00 00 00 	movl	$0, %eax
+100000dd4:	e8 8a ff ff ff 	callq	-118 <_example_pointer_function_two>
+100000dd9:	b8 00 00 00 00 	movl	$0, %eax
+100000dde:	5d 	popq	%rbp
+100000ddf:	c3 	retq
+Disassembly of section __TEXT,__stubs:
+__stubs:
+100000de0:	ff 25 32 02 00 00 	jmpq	*562(%rip)
+100000de6:	ff 25 34 02 00 00 	jmpq	*564(%rip)
+Disassembly of section __TEXT,__stub_helper:
+__stub_helper:
+100000dec:	4c 8d 1d 1d 02 00 00 	leaq	541(%rip), %r11
+100000df3:	41 53 	pushq	%r11
+100000df5:	ff 25 0d 02 00 00 	jmpq	*525(%rip)
+100000dfb:	90 	nop
+100000dfc:	68 00 00 00 00 	pushq	$0
+100000e01:	e9 e6 ff ff ff 	jmp	-26 <__stub_helper>
+100000e06:	68 0e 00 00 00 	pushq	$14
+100000e0b:	e9 dc ff ff ff 	jmp	-36 <__stub_helper>
+Disassembly of section __TEXT,__cstring:
+__cstring:
+100000e10:	61  <unknown>
+100000e11:	6c 	insb	%dx, %es:(%rdi)
+100000e12:	6c 	insb	%dx, %es:(%rdi)
+100000e13:	6f 	outsl	(%rsi), %dx
+100000e14:	63  <unknown>
+100000e15:	61  <unknown>
+100000e16:	74 65 	je	101 <__cstring+0x6D>
+100000e18:	64 5f 	popq	%rdi
+100000e1a:	70 6f 	jo	111 <__cstring+0x7B>
+100000e1c:	69 6e 74 65 72 20 28 	imull	$673215077, 116(%rsi), %ebp
+100000e23:	68 65 61 70 20 	pushq	$544235877
+100000e28:	6d 	insl	%dx, %es:(%rdi)
+100000e29:	65 6d 	insl	%dx, %es:(%rdi)
+100000e2b:	20 61 72 	andb	%ah, 114(%rcx)
+100000e2e:	65 61  <unknown>
+100000e30:	29 20 	subl	%esp, (%rax)
+100000e32:	25 70 20 0a 0a 	andl	$168435824, %eax
+100000e37:	67 6c 	insb	%dx, %es:(%edi)
+100000e39:	6f 	outsl	(%rsi), %dx
+100000e3a:	62 61 6c 5f 61  <unknown>
+100000e3f:	67 65 5f 	popq	%rdi
+100000e42:	70 74 	jo	116 <__cstring+0xA8>
+100000e44:	72 20 	jb	32 <__cstring+0x56>
+100000e46:	28 69 6e 	subb	%ch, 110(%rcx)
+100000e49:	69 74 69 61 6c 69 7a 65 	imull	$1702521196, 97(%rcx,%rbp,2), %esi
+100000e51:	64 5f 	popq	%rdi
+100000e53:	61  <unknown>
+100000e54:	67 65 20 2e 	andb	%ch, %gs:(%esi)
+100000e58:	64 61  <unknown>
+100000e5a:	74 61 	je	97 <__cstring+0xAD>
+100000e5c:	20 6d 65 	andb	%ch, 101(%rbp)
+100000e5f:	6d 	insl	%dx, %es:(%rdi)
+100000e60:	20 61 72 	andb	%ah, 114(%rcx)
+100000e63:	65 61  <unknown>
+100000e65:	29 20 	subl	%esp, (%rax)
+100000e67:	25 70 20 0a 0a 	andl	$168435824, %eax
+100000e6c:	6c 	insb	%dx, %es:(%rdi)
+100000e6d:	6f 	outsl	(%rsi), %dx
+100000e6e:	63  <unknown>
+100000e6f:	61  <unknown>
+100000e70:	6c 	insb	%dx, %es:(%rdi)
+100000e71:	5f 	popq	%rdi
+100000e72:	61  <unknown>
+100000e73:	67 65 5f 	popq	%rdi
+100000e76:	70 74 	jo	116 <__cstring+0xDC>
+100000e78:	72 20 	jb	32 <__cstring+0x8A>
+100000e7a:	28 26 	subb	%ah, (%rsi)
+100000e7c:	6c 	insb	%dx, %es:(%rdi)
+100000e7d:	61  <unknown>
+100000e7e:	74 65 	je	101 <__cstring+0xD5>
+100000e80:	5f 	popq	%rdi
+100000e81:	61  <unknown>
+100000e82:	67 65 20 6c 6f 63 	andb	%ch, %gs:99(%edi,%ebp,2)
+100000e88:	61  <unknown>
+100000e89:	6c 	insb	%dx, %es:(%rdi)
+100000e8a:	20 73 74 	andb	%dh, 116(%rbx)
+100000e8d:	61  <unknown>
+100000e8e:	63  <unknown>
+100000e8f:	6b 20 6d 	imull	$109, (%rax), %esp
+100000e92:	65 6d 	insl	%dx, %es:(%rdi)
+100000e94:	20 61 72 	andb	%ah, 114(%rcx)
+100000e97:	65 61  <unknown>
+100000e99:	29 20 	subl	%esp, (%rax)
+100000e9b:	25 70 20 0a 0a 	andl	$168435824, %eax
+100000ea0:	0a 00 	orb	(%rax), %al
+100000ea2:	00 00 	addb	%al, (%rax)
+100000ea4:	00 00 	addb	%al, (%rax)
+100000ea6:	00 00 	addb	%al, (%rax)
+100000ea8:	6d 	insl	%dx, %es:(%rdi)
+100000ea9:	61  <unknown>
+100000eaa:	6c 	insb	%dx, %es:(%rdi)
+100000eab:	6c 	insb	%dx, %es:(%rdi)
+100000eac:	6f 	outsl	(%rsi), %dx
+100000ead:	63  <unknown>
+100000eae:	5f 	popq	%rdi
+100000eaf:	66 75 6e 	jne	110 <__cstring+0x110>
+100000eb2:	63  <unknown>
+100000eb3:	74 69 	je	105 <__cstring+0x10E>
+100000eb5:	6f 	outsl	(%rsi), %dx
+100000eb6:	6e 	outsb	(%rsi), %dx
+100000eb7:	5f 	popq	%rdi
+100000eb8:	70 74 	jo	116 <__cstring+0x11E>
+100000eba:	72 20 	jb	32 <__cstring+0xCC>
+100000ebc:	28 73 68 	subb	%dh, 104(%rbx)
+100000ebf:	61  <unknown>
+100000ec0:	72 65 	jb	101 <__cstring+0x117>
+100000ec2:	64 20 6c 69 62 	andb	%ch, %fs:98(%rcx,%rbp,2)
+100000ec7:	73 20 	jae	32 <__cstring+0xD9>
+100000ec9:	6d 	insl	%dx, %es:(%rdi)
+100000eca:	65 6d 	insl	%dx, %es:(%rdi)
+100000ecc:	20 61 72 	andb	%ah, 114(%rcx)
+100000ecf:	65 61  <unknown>
+100000ed1:	29 20 	subl	%esp, (%rax)
+100000ed3:	25 70 20 0a 0a 	andl	$168435824, %eax
+100000ed8:	61  <unknown>
+100000ed9:	67 65 5f 	popq	%rdi
+100000edc:	70 74 	jo	116
+100000ede:	72 20 	jb	32 <__cstring+0xF0>
+100000ee0:	28 75 6e 	subb	%dh, 110(%rbp)
+100000ee3:	69 6e 69 74 69 61 6c 	imull	$1818323316, 105(%rsi), %ebp
+100000eea:	69 7a 65 64 5f 61 67 	imull	$1734434660, 101(%rdx), %edi
+100000ef1:	65 20 62 73 	andb	%ah, %gs:115(%rdx)
+100000ef5:	73 20 	jae	32 <__cstring+0x107>
+100000ef7:	6d 	insl	%dx, %es:(%rdi)
+100000ef8:	65 6d 	insl	%dx, %es:(%rdi)
+100000efa:	20 61 72 	andb	%ah, 114(%rcx)
+100000efd:	65 61  <unknown>
+100000eff:	29 20 	subl	%esp, (%rax)
+100000f01:	25 70 20 0a 0a 	andl	$168435824, %eax
+100000f06:	65 78 61 	js	97
+100000f09:	6d 	insl	%dx, %es:(%rdi)
+100000f0a:	70 6c 	jo	108
+100000f0c:	65 5f 	popq	%rdi
+100000f0e:	70 6f 	jo	111
+100000f10:	69 6e 74 65 72 5f 66 	imull	$1717531237, 116(%rsi), %ebp
+100000f17:	75 6e 	jne	110
+100000f19:	63  <unknown>
+100000f1a:	74 69 	je	105
+100000f1c:	6f 	outsl	(%rsi), %dx
+100000f1d:	6e 	outsb	(%rsi), %dx
+100000f1e:	5f 	popq	%rdi
+100000f1f:	6f 	outsl	(%rsi), %dx
+100000f20:	6e 	outsb	(%rsi), %dx
+100000f21:	65 5f 	popq	%rdi
+100000f23:	70 74 	jo	116
+100000f25:	72 20 	jb	32
+100000f27:	28 2e 	subb	%ch, (%rsi)
+100000f29:	74 65 	je	101
+100000f2b:	78 74 	js	116
+100000f2d:	20 61 72 	andb	%ah, 114(%rcx)
+100000f30:	65 61  <unknown>
+100000f32:	29 20 	subl	%esp, (%rax)
+100000f34:	25 70 20 0a 0a 	andl	$168435824, %eax
+100000f39:	00  <unknown>
+Disassembly of section __TEXT,__eh_frame:
+__eh_frame:
+100000f40:	14 00 	adcb	$0, %al
+100000f42:	00 00 	addb	%al, (%rax)
+100000f44:	00 00 	addb	%al, (%rax)
+100000f46:	00 00 	addb	%al, (%rax)
+100000f48:	01 7a 52 	addl	%edi, 82(%rdx)
+100000f4b:	00 01 	addb	%al, (%rcx)
+100000f4d:	78 10 	js	16 <__eh_frame+0x1F>
+100000f4f:	01 10 	addl	%edx, (%rax)
+100000f51:	0c 07 	orb	$7, %al
+100000f53:	08 90 01 00 00 34 	orb	%dl, 872415233(%rax)
+100000f59:	00 00 	addb	%al, (%rax)
+100000f5b:	00 1c 00 	addb	%bl, (%rax,%rax)
+100000f5e:	00 00 	addb	%al, (%rax)
+100000f60:	9c 	pushfq
+100000f61:	fd 	std
+100000f62:	ff ff  <unknown>
+100000f64:	ff ff  <unknown>
+100000f66:	ff ff  <unknown>
+100000f68:	67 00 00 	addb	%al, (%eax)
+100000f6b:	00 00 	addb	%al, (%rax)
+100000f6d:	00 00 	addb	%al, (%rax)
+100000f6f:	00 00 	addb	%al, (%rax)
+100000f71:	04 01 	addb	$1, %al
+100000f73:	00 00 	addb	%al, (%rax)
+100000f75:	00 0e 	addb	%cl, (%rsi)
+100000f77:	10 86 02 04 03 00 	adcb	%al, 197634(%rsi)
+100000f7d:	00 00 	addb	%al, (%rax)
+100000f7f:	0d 06 04 62 00 	orl	$6423558, %eax
+100000f84:	00 00 	addb	%al, (%rax)
+100000f86:	0c 07 	orb	$7, %al
+100000f88:	08 00 	orb	%al, (%rax)
+100000f8a:	00 00 	addb	%al, (%rax)
+100000f8c:	00 00 	addb	%al, (%rax)
+100000f8e:	00 00 	addb	%al, (%rax)
+100000f90:	34 00 	xorb	$0, %al
+100000f92:	00 00 	addb	%al, (%rax)
+100000f94:	54 	pushq	%rsp
+100000f95:	00 00 	addb	%al, (%rax)
+100000f97:	00 cb 	addb	%cl, %bl
+100000f99:	fd 	std
+100000f9a:	ff ff  <unknown>
+100000f9c:	ff ff  <unknown>
+100000f9e:	ff ff  <unknown>
+100000fa0:	4c 00 00 	addb	%r8b, (%rax)
+100000fa3:	00 00 	addb	%al, (%rax)
+100000fa5:	00 00 	addb	%al, (%rax)
+100000fa7:	00 00 	addb	%al, (%rax)
+100000fa9:	04 01 	addb	$1, %al
+100000fab:	00 00 	addb	%al, (%rax)
+100000fad:	00 0e 	addb	%cl, (%rsi)
+100000faf:	10 86 02 04 03 00 	adcb	%al, 197634(%rsi)
+100000fb5:	00 00 	addb	%al, (%rax)
+100000fb7:	0d 06 04 47 00 	orl	$4654086, %eax
+100000fbc:	00 00 	addb	%al, (%rax)
+100000fbe:	0c 07 	orb	$7, %al
+100000fc0:	08 00 	orb	%al, (%rax)
+100000fc2:	00 00 	addb	%al, (%rax)
+100000fc4:	00 00 	addb	%al, (%rax)
+100000fc6:	00 00 	addb	%al, (%rax)
+100000fc8:	34 00 	xorb	$0, %al
+100000fca:	00 00 	addb	%al, (%rax)
+100000fcc:	8c 00 	movl	%es, (%rax)
+100000fce:	00 00 	addb	%al, (%rax)
+100000fd0:	df fd  <unknown>
+100000fd2:	ff ff  <unknown>
+100000fd4:	ff ff  <unknown>
+100000fd6:	ff ff  <unknown>
+100000fd8:	31 00 	xorl	%eax, (%rax)
+100000fda:	00 00 	addb	%al, (%rax)
+100000fdc:	00 00 	addb	%al, (%rax)
+100000fde:	00 00 	addb	%al, (%rax)
+100000fe0:	00 04 01 	addb	%al, (%rcx,%rax)
+100000fe3:	00 00 	addb	%al, (%rax)
+100000fe5:	00 0e 	addb	%cl, (%rsi)
+100000fe7:	10 86 02 04 03 00 	adcb	%al, 197634(%rsi)
+100000fed:	00 00 	addb	%al, (%rax)
+100000fef:	0d 06 04 2c 00 	orl	$2884614, %eax
+100000ff4:	00 00 	addb	%al, (%rax)
+100000ff6:	0c 07 	orb	$7, %al
+100000ff8:	08 00 	orb	%al, (%rax)
+100000ffa:	00 00 	addb	%al, (%rax)
+100000ffc:	00 00 	addb	%al, (%rax)
+100000ffe:	00 00 	addb	%al, (%rax)
+Disassembly of section __DATA,__got:
+__got:
+100001000:	00 00 	addb	%al, (%rax)
+100001002:	00 00 	addb	%al, (%rax)
+100001004:	00 00 	addb	%al, (%rax)
+100001006:	00 00 	addb	%al, (%rax)
+Disassembly of section __DATA,__nl_symbol_ptr:
+__nl_symbol_ptr:
+100001008:	00 00 	addb	%al, (%rax)
+10000100a:	00 00 	addb	%al, (%rax)
+10000100c:	00 00 	addb	%al, (%rax)
+10000100e:	00 00 	addb	%al, (%rax)
+100001010:	00 00 	addb	%al, (%rax)
+100001012:	00 00 	addb	%al, (%rax)
+100001014:	00 00 	addb	%al, (%rax)
+100001016:	00 00 	addb	%al, (%rax)
+Disassembly of section __DATA,__la_symbol_ptr:
+__la_symbol_ptr:
+100001018:	fc 	cld
+100001019:	0d 00 00 01 00 	orl	$65536, %eax
+10000101e:	00 00 	addb	%al, (%rax)
+100001020:	06  <unknown>
+100001021:	0e  <unknown>
+100001022:	00 00 	addb	%al, (%rax)
+100001024:	01 00 	addl	%eax, (%rax)
+100001026:	00 00 	addb	%al, (%rax)
+Disassembly of section __DATA,__data:
+_initialized_age:
+100001028:	37  <unknown>
+100001029:	00 00 	addb	%al, (%rax)
+10000102b:	00  <unknown>
+
+Disassembly of section __DATA,__common: -> BSS
+_uninitialized_age:
+10000102c:	cf 	iretl
+10000102d:	fa 	cli
+10000102e:	ed 	inl	%dx, %eax
+10000102f:	fe  <unknown>
