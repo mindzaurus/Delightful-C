@@ -15,7 +15,7 @@
     //declare days_in_january below and set value to 31
 
     //declare value_of_pi below and set value to 3.14
-    
+
     printf("value of integer is %d \n", days_in_january);
     printf("value of float is %.2f \n", value_of_pi);
   }
