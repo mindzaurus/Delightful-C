@@ -1,8 +1,8 @@
 
 /*
-  Use this template to complete this exercise
-
   UNDERSTANDING WIDENING AND NARROWING CONVERSIONS
+
+  Use this template to complete this exercise
 
   1) declare a int variable mxint and set it to its max value,
   2) also declare another variable tmp_int and set it to 0
