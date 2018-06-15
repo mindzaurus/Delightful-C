@@ -2,7 +2,7 @@
 /*
   UNDERSTANDING DIVISION OPERATOR IN C - WATER CONSUMPTION OF A CITY
 
-  Used this template to complete this exercise
+  Use this template to complete this exercise
 
   PART ONE
   ========
