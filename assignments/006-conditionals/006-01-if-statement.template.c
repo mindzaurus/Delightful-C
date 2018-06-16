@@ -1,5 +1,5 @@
 /*
-  UNDERSTANDING IF STATEMENT IN - QUICK MULTIPLY FUNCTION
+  UNDERSTANDING IF STATEMENT IN C - QUICK MULTIPLY FUNCTION
 
   1) Write a function if_multiplier which takes in two int arguments x and y
      it should return an int value
