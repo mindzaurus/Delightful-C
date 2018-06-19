@@ -1,5 +1,5 @@
 /*
-  UNDERSTANDING POINTER DECLARATIONS - USE POINTER TO WRITE TO MEMORY LOCATIONS
+  UNDERSTANDING POINTER DEREFERENCE - USE POINTER TO WRITE TO MEMORY LOCATIONS
 
   1) Inside main declare a variable of type float called pi_val
      and DON'T initialize this variable to any value
