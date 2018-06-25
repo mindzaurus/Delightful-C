@@ -1,4 +1,5 @@
 /*
+      UNDERSTANDING UNIONS IN C - ANONYMOUS AND NAMED UNIONS
 
   1)  Declare a typedefed struct with following fields
       STATION_ID_TYPE id_type
