@@ -25,7 +25,7 @@ int main()
 
 
   printf("sizeof int is = %d \n", size_of_int);
-  printf("sizeof int is = %d \n", size_of_long_long_int);
-  printf("sizeof int is = %d \n", size_of_float);
-  printf("sizeof int is = %d \n", size_of_double);
+  printf("sizeof long long int is = %d \n", size_of_long_long_int);
+  printf("sizeof float is = %d \n", size_of_float);
+  printf("sizeof double is = %d \n", size_of_double);
 }
