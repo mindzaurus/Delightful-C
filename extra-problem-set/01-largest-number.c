@@ -35,6 +35,7 @@
 
 
 #if !defined(USE_REFERENCE_SOLUTION)
+
 /*
 
   ADD
