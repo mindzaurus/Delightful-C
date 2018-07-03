@@ -51,6 +51,20 @@ int ar_2d [NUM_ROWS] [NUM_COLUMNS] =
 };
 
 #include <stdio.h>
+
+#if !defined(USE_REFERENCE_SOLUTION)
+
+
+/*
+
+  ADD
+  YOUR
+  SOLUTION
+  HERE
+
+*/
+
+#else
 int get_row_wise_sum(int (*array_2d) [NUM_COLUMNS], int current_row_number);
 
 void print_sum_of_rows(int (* array_2d) [NUM_COLUMNS])
@@ -76,6 +90,7 @@ int get_row_wise_sum(int (*array_2d) [NUM_COLUMNS], int current_row_number)
 
   return x;
 }
+#endif // #if !defined(USE_REFERENCE_SOLUTION)
 
 int main()
 {

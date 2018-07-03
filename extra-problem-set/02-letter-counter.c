@@ -27,6 +27,8 @@
 
 #include <stdio.h>
 
+#if !defined(USE_REFERENCE_SOLUTION)
+
 /*
 
   ADD
@@ -36,7 +38,6 @@
 
 */
 
-#if !defined(USE_REFERENCE_SOLUTION)
 #else
 // LOGIC TO USE:
 //   Initialize a counter to 0
