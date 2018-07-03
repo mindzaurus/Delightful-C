@@ -31,11 +31,10 @@ S    | [31]       == 8 + 9 + 7 + 7
      V
 
   LOGIC TO USE:
-    Create a result 2d array to hold a 5 rows and 1 column
     Add all elements of a row and store in result array of same row index
     Use for loops
 
-    Passing 2d arrays can be done using declarations like this "int (* array_2d) [NUM_COLUMNS]""
+    Passing 2d arrays can be done using declarations like this "int (* array_2d) [NUM_COLUMNS]"
 */
 
 #define NUM_ROWS 5
