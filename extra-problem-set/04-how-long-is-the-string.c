@@ -1,8 +1,8 @@
 /*
   Write a function
-  int get_length_of_string(char * str)
-  that returns the length of a c style char string written in pure ENGLISH
-  Don't use strlen or inbuilt library functions
+    int get_length_of_string(char * str)
+    that returns the length of a c style char string written in pure ENGLISH
+    Don't use strlen or inbuilt library functions
 
   LOGIC TO USE:
     From the beginning of the string till you see a '\0' keep counting
