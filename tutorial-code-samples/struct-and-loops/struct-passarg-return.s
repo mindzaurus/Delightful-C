@@ -13,14 +13,14 @@ struct_by_value_returner:
 	mov	x20, x0
 	mov	x3, x19
 	mov	x1, x20
-	mov	x0, 416
+	mov	x0, 416 // struct size is 416 bytes
 	mov	x2, x0
 	mov	x0, x3
-	bl	memcpy
+	bl	memcpy // copies struct of 416 bytes to stack using memcpy
 	mov	x0, x19
 	ldp	x19, x20, [sp, 16]
 	ldp	x29, x30, [sp], 32
-	ret
+	ret // return back to caller from here
 	.size	struct_by_value_returner, .-struct_by_value_returner
 	.align	2
 	.global	struct_by_value_passer
@@ -37,8 +37,8 @@ struct_by_value_passer:
 	mov	x1,0
 	add	x0, x29, 16
 	add	x1, x29, 440
-	mov	x2, 416
-	bl	memcpy
+	mov	x2, 416 // 416 bytes copied to stack using memcpy
+	bl	memcpy  // actual memcpy call happens here
 	add	x0, x29, 16
 	add	x1, x29, 856
 	mov	x8, x1
