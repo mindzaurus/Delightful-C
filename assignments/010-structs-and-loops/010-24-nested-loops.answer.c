@@ -42,21 +42,21 @@ int main()
 
   for (i=0; i<=9; i++) {
 
-    if(i==0)
-      continue;
+      if(i==0)
+          continue;
 
-    if(i>3)
-      break;
+      if(i>3)
+          break;
 
-    for(j=0; j<=9; j++) {
-      if(j == 0)
-        continue;
+      for(j=0; j<=9; j++) {
+          if(j == 0)
+              continue;
 
-      if(i == 3 && j > 5)
-        break;
+          if(i == 3 && j > 5)
+              break;
 
-      printf("%d and %d\n", i, j);
-    }
+          printf("%d and %d\n", i, j);
+      }
 
   }
 }
